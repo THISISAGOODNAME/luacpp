@@ -2,10 +2,13 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lua_interpreter/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lua_loadCodeFromFile/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lua_loadValueFromFile/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lbaselib.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lundump.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/liolib.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lundump.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/loslib.c" isTestSource="false" />
@@ -13,7 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lcode.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldebug.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lua.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lauxlib.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lcode.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldebug.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ltable.h" isTestSource="false" />
@@ -27,7 +30,6 @@
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/linit.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lstring.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lobject.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lauxlib.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lopcodes.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lparser.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lopcodes.c" isTestSource="false" />

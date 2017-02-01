@@ -43,5 +43,16 @@ set(LUA_SRC ${LUA_CORE_FILES} ${LUA_LIB_FILES})
 #标准lua解释器
 add_executable(lua lua-5.1.5/src/lua.c ${LUA_SRC})
 
-set(SOURCE_FILES main.cpp)
-add_executable(luacpp ${SOURCE_FILES})
+# 1. 实现lua解释器
+add_executable(myLuaInterpreter src/lua_interpreter/main.cpp ${LUA_SRC})
+
+# 2. 从文件中读取代码并运行
+add_executable(myLoadLuaCodeFromFile src/lua_loadCodeFromFile/main.cpp ${LUA_SRC})
+file(COPY src/lua_loadCodeFromFile/test1.lua DESTINATION ${CMAKE_BINARY_DIR}/)
+
+# 3. 从文件中读取变量
+add_executable(myLoadValueFromFile src/lua_loadValueFromFile/main.cpp ${LUA_SRC})
+file(COPY src/lua_loadValueFromFile/test2.lua DESTINATION ${CMAKE_BINARY_DIR}/)
+
+#set(SOURCE_FILES main.cpp)
+#add_executable(luacpp ${SOURCE_FILES})
