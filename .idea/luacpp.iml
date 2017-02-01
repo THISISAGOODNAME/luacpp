@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lbaselib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lundump.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/liolib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lundump.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/loslib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ltablib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lcode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lua.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lcode.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldebug.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ltable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldo.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lparser.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/loadlib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldump.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lauxlib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lmem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lobject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/linit.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lstring.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lobject.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lauxlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lopcodes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lparser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lopcodes.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lapi.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ltable.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lfunc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lstrlib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lapi.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lstate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lfunc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lvm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/llex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lstring.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lstate.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/llex.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ldblib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lua.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lvm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lgc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lzio.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ltm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lmem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lgc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lzio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/ltm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lua-5.1.5/src/lmathlib.c" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include-fixed" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include-fixed" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
