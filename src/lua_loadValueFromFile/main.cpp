@@ -45,23 +45,23 @@ void MyLuaInterpreter()
 
     double a, b;
 
-    // 获取a的值
+    // 1. 获取a的值
     lua_getglobal(L, "a");
     a = lua_tonumber(L, -1);
 
-    // 获取b的值
+    // 2. 获取b的值
     lua_getglobal(L, "b");
     b = lua_tonumber(L, -1);
 
     cout << "a = " << a << " b = " << b << endl;
     cout << "a + b = " << a + b << endl;
 
-    // 读取字符串
+    // 3. 读取字符串
     lua_getglobal(L, "strc");
     string strc = lua_tostring(L, -1);
     cout << "strc: " << strc << endl;
 
-    // 读取table
+    // 4. 读取table
     lua_getglobal(L, "table");
     lua_getfield(L, -1, "tabA");
     double tabA = lua_tonumber(L, -1);
@@ -70,7 +70,7 @@ void MyLuaInterpreter()
     string tabStr = lua_tostring(L, -1);
     cout << "table.tabStr = " << tabStr << endl;
 
-    // 读取函数
+    // 5. 读取函数
     lua_getglobal(L, "add");            // 获取函数
     lua_pushnumber(L, 11);              // 压入第一个参数
     lua_pushnumber(L, 22);              // 压入第二个参数
